@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/12345.png);
+}
+
+div{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    padding-left:5px ;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    opacity: 0.3;
+}
+
+
+#metales-alcalinos{
+    background-color:#244d57 ;
+}
+
+
+@media (min-width:576px){
+    div{
+        width: 310px;
+        height: 310px;
+    }
+}
+
+@media (min-width:768px){
+    div{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media (min-width:992px){
+    div{
+        width: 80px;
+        height: 80px;
+    }
+
+    div:hover{
+        opacity: 1.0;
+        transition: opacity 0.5s ;
+        height: 110px;
+        width: 110px; 
+        transition-property: height, width;
+        transition-duration: 1s;
+    }
+
+}
+
+@media (min-width:1200px){
+    div{
+        width: 120px;
+        height: 120px;
+    }
+    
+    div:hover{
+        height: 130px;
+        width: 130px; 
+        transition-property: height, width;
+        transition-duration: 1s;
+    }
+
+}
