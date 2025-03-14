@@ -1,0 +1,96 @@
+div{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+
+}
+
+div:hover{
+    opacity: 1.0;
+    transition: opacity 0.5s ;
+}
+
+body{
+    background-image: url(../img/black.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#metales-alcalinos{
+    background-color:#244d57 ;
+
+}
+#metaloides{background-color:#523e1b ;}
+
+#actinoides{background-color:#613b28 ;}
+
+#metales-alcalinotérreos{background-color:#622e39;}
+
+#no-metales-reactivos{background-color:#2a4165;}
+
+#propiedades-desconocidos{background-color:#46474c ;}
+
+#metales-tradicionales{background-color:#433c65;}
+
+#gases-nobles{background-color:#623842 ;}
+
+#metales-postransicionales{background-color:#2f4d47;}
+
+#lantanidos{background-color:#004a77;}
+
+
+@media only screen and (max-width:576px){
+    div{
+        width: 100px;
+        height: 100px;
+        opacity: 1.0;
+    }
+}
+
+
+@media only screen and (min-width:768px){
+    div{
+        width: 115px;
+        height: 115px;
+        opacity: 1.0;
+    }
+}
+
+
+@media only screen and (min-width:992px){
+    div{
+        width: 137px;
+        height: 137px;
+        opacity: 0.3;
+    }
+
+    div:hover{
+        
+        height: 110px;
+        width: 110px; 
+        transition-property: height, width;
+        transition-duration: 1s;
+    }
+
+}
+
+@media only screen and (min-width:1200px){
+    div{
+        width: 150px;
+        height: 150px;
+        opacity: 0.3;
+    }
+    
+    div:hover{
+        height: 160px;
+        width: 160px; 
+        transition-property: height, width;
+        transition-duration: 1s;
+    }
+
+}
