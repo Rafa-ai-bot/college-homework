@@ -1,0 +1,26 @@
+html{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(13, 13, 20);
+    padding: 10px;
+    margin: 10px;
+}
+
+.grid{
+
+    border-radius: 3px;
+    background-color: crimson;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    border:darkred 1px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 10px;
+    justify-content: center;
+}
