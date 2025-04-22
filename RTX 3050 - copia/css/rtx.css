@@ -1,0 +1,120 @@
+body{background-color: black;}
+#geforce-rtx{
+    background-image: url(../img/mobile/geforce-rtx-3050.jpg);
+    background-repeat: no-repeat;
+    padding-top: 650px;
+
+}
+
+
+
+
+
+.titulos{
+    height: 20px;
+    color: white;
+}
+
+.sub-titulos{
+    font-size: 24px;
+    color: white;
+}
+
+.texto-general{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    text-justify: auto;
+}
+
+#componentes{
+    background-image: url(../img/mobile/img-fondocom-bg-mobile.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+.titulo-componentes{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.text-blanco{
+    color: white;
+
+}
+
+#comentarios-rtx{
+background-color: #1a1a1a;
+color: white;
+text-align: center;
+font-size: 14px;
+line-height: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+box-sizing: border-box;
+}
+
+#tabla{
+    background-color: black;
+    background-position: center;
+}
+
+
+
+
+
+.comentarios{
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #222,;
+    padding: 40px;
+    padding-top: 0px;
+}
+
+
+
+#video-rxt{
+    background-color: black;
+    background-image: url(../img/mobile/img-fondorendi-bg-mobile.jpg);
+
+
+}
+
+
+
+
+@media only screen and (max-width:576px){
+    #geforce-rtx{
+        background-image: url(../img/mobile/geforce-rtx-3050.jpg);
+    }
+   
+}
+
+
+
+@media only screen and (min-width:768px){
+    
+    #geforce-rtx{}
+    
+    #componentes{
+        background-image: url(../img/tablet/componentes-bg-tablet.jpg);
+    }
+    
+}
+
+
+
+@media only screen and (min-width:1200px){
+   
+
+    #componentes{
+        background-image: url(../img/dekstop/geforce-ultimate-platform-background-image-spec2-bb460_420-l.jpg);
+    }
+}
