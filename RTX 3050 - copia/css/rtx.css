@@ -5,13 +5,23 @@ body{background-color: black;}
     background-repeat: no-repeat;
     padding-top: 1114px;
     text-align: justify;
-    text-
 
 }
 
+#rtx-On{
+    background-image: url(../img/mobile/img-rtx-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 648px;
+}
 
-
-
+#dlss{
+    background-image: url(../img/mobile/img-fondorendi-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 648px;
+}
 
 .titulos{
     height: 20px;
