@@ -43,6 +43,24 @@ body{background-color: black;}
     
 }
 
+#victoria-medida{
+    background-image: url(../img/mobile/img-victoria-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 791px;
+    float: left;
+}
+
+#drive-game{
+    background-image: url(../img/mobile/img-drivegame-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 874px;
+    text-align: left;
+    margin-top: -339px;
+    float: left;
+    
+}
 
 .titulos{
     height: 20px;
