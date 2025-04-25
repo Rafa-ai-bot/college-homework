@@ -62,6 +62,16 @@ body{background-color: black;}
     
 }
 
+#transmision-en-vivo{
+    background-image: url(../img/mobile/fornite-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: -10px;
+    text-align: left;
+    margin-top: -339px;
+    float: left;
+}
+
 .titulos{
     height: 20px;
     color: white;
