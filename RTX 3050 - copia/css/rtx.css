@@ -5,14 +5,15 @@ body{background-color: black;}
     background-repeat: no-repeat;
     padding-top: 1114px;
     text-align: justify;
-
 }
 
 #rtx-On{
     background-image: url(../img/mobile/img-rtx-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 648px;
+    padding-top: 620px;
+    padding-bottom: 20px;
+    text-align: justify;
 }
 
 #dlss{
@@ -20,8 +21,6 @@ body{background-color: black;}
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding-top: 69px;
-
 }
 
 .boton-verde {
@@ -37,44 +36,28 @@ body{background-color: black;}
 #ray-tracing-minecraft{
     background-image: url(../img/mobile/img-minecraftrtx-bg-mobile.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-size: contain;
     text-align: center;
-    padding-top: 504px;
+    padding-top: 500px;
+    padding-bottom: 30px;  
     
+ 
 }
 
 #victoria-medida{
     background-image: url(../img/mobile/img-victoria-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 791px;
-    float: left;
+    padding: 20px;
+    padding-top: 790px;
 }
 
 #drive-game{
     background-image: url(../img/mobile/img-drivegame-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 874px;
-    text-align: left;
-    margin-top: -339px;
-    float: left;
-    
-}
-
-#transmision-en-vivo{
-    background-image: url(../img/mobile/fornite-bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: -10px;
-    text-align: left;
-    margin-top: -339px;
-    float: left;
-}
-
-.titulos{
-    height: 20px;
-    color: white;
+    text-align: left; 
 }
 
 .sub-titulos{
@@ -89,17 +72,18 @@ body{background-color: black;}
     text-justify: auto;
 }
 
+#titulo-geforce{
+    padding-top: 2px;
+    padding-bottom: 30px;
+}
+
 #componentes{
     background-image: url(../img/mobile/img-fondocom-bg-mobile.jpg);
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: auto;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;   
 }
-
-
-
 
 .titulo-componentes{
     font-size: 18px;
@@ -109,28 +93,23 @@ body{background-color: black;}
 
 .text-blanco{
     color: white;
-
 }
 
 #comentarios-rtx{
-background-color: #1a1a1a;
-color: white;
-text-align: center;
-font-size: 14px;
-line-height: 20px;
-padding-top: 10px;
-padding-bottom: 10px;
-box-sizing: border-box;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 #tabla{
     background-color: black;
     background-position: center;
 }
-
-
-
-
 
 .comentarios{
     font-size: 18px;
@@ -140,36 +119,62 @@ box-sizing: border-box;
     padding-top: 0px;
 }
 
-
-
-@media only screen and (max-width:576px){
+@media only screen and (max-width:414px){
     #geforce-rtx{
         background-image: url(../img/mobile/geforce-rtx-3050.jpg);
     }
-   
-}
-
-
-
-@media only screen and (min-width:768px){
-    
-    #geforce-rtx{
+    #rtx-On{
+        background-image: url(../img/mobile/img-rtx-bg-mobile.jpg);
         
         background-repeat: no-repeat;
+        padding-top: 630px;
+        padding-bottom: 300px;
+    }
+    #ray-tracing-minecraft{
+        background-image: url(../img/mobile/img-minecraftrtx-bg-mobile.jpg);
+        padding-top: 500px;
+        padding-bottom: 30px;  
+    }
+    #victoria-medida{
+        background-image: url(../img/mobile/img-victoria-bg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 630px;
+    }
+
 }
-    
+
+@media only screen and (min-width:768px){
+    #geforce-rtx{
+        background-image: url(../img/tablet/geforce-rtx-3050-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 677px;
+    }
     #componentes{
         background-image: url(../img/tablet/componentes-bg-tablet.jpg);
     }
+    #rtx-On{
+        background-image: url(../img/tablet/geforce-rtx-esports-background-image-spec2-bb580_440-p@2x.jpg);
+        
+
+        padding-top: 620px;
+        padding-bottom: 200px;
+    }
     
-}
 
-
+}   
 
 @media only screen and (min-width:1200px){
-   
-
+    #geforce-rtx{
+        background-image: url(../img/geforce-rtx-3050-hero-background-image-spec2-bb770_550-t@2x.jpg);
+        background-size: cover;
+        padding-top: 200px;
+        padding-bottom: 290px;
+    }
+    
     #componentes{
         background-image: url(../img/dekstop/geforce-ultimate-platform-background-image-spec2-bb460_420-l.jpg);
+        background-size: cover;
     }
 }
