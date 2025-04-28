@@ -58,6 +58,30 @@ body{background-color: black;}
     background-repeat: no-repeat;
     background-position: center;
     text-align: left; 
+    padding-top: 550px;
+    padding-bottom: 2px;
+}
+
+#transmision-en-vivo{
+    background-image: url(../img/mobile/fornite-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+    padding-top: 246px;
+}
+
+#studio-en-casa{
+    background-image: url(../img/mobile/studio-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 10px;
+    padding-top: 519px;
+}
+#mejora-tu-creativida{
+    background-image: url(../img/mobile/mejora-creatividad-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 10px;
+    padding-top: 430px;
 }
 
 .sub-titulos{
@@ -130,6 +154,11 @@ body{background-color: black;}
         padding-top: 630px;
         padding-bottom: 300px;
     }
+    #dlss{
+        background-image: url(../img/tablet/dlss-bg-tablet.jpg);
+        background-size: cover;
+    }
+
     #ray-tracing-minecraft{
         background-image: url(../img/mobile/img-minecraftrtx-bg-mobile.jpg);
         padding-top: 500px;
@@ -141,7 +170,16 @@ body{background-color: black;}
         background-position: center;
         padding-top: 630px;
     }
-
+    #drive-game{
+        background-image: url(../img/mobile/img-drivegame-bg-mobile.jpg);
+        
+    }
+    #studio-en-casa{
+        background-image: url(../img/mobile/studio-bg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
 }
 
 @media only screen and (min-width:768px){
@@ -155,14 +193,36 @@ body{background-color: black;}
         background-image: url(../img/tablet/componentes-bg-tablet.jpg);
     }
     #rtx-On{
-        background-image: url(../img/tablet/geforce-rtx-esports-background-image-spec2-bb580_440-p@2x.jpg);
-        
-
+        background-image: url(../img/tablet/rtx-bg-tablet.jpg);
         padding-top: 620px;
-        padding-bottom: 200px;
+        padding-bottom: 9px;
     }
-    
-
+    #dlss{
+        background-image: url(../img/tablet/dlss-bg-tablet.jpg);
+    }
+    #ray-tracing-minecraft{
+        background-image: url(../img/tablet/minecraft-rtx-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        text-align: center;
+        padding-top: 570px;
+        padding-bottom: 30px;   
+    }
+    #victoria-medida{
+        background-image: url(../img/tablet/victoria-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 750px;
+    }
+    #transmision-en-vivo{
+        background-image: url(../img/tablet/fornite-bg-tablet.jpg);
+        background-position: bottom;
+        background-size: contain;
+        padding-top: 120px;
+        padding-bottom: 435px;
+    }
+   
 }   
 
 @media only screen and (min-width:1200px){
