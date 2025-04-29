@@ -62,7 +62,7 @@ body{background-color: black;}
     padding-bottom: 2px;
 }
 
-#transmision-en-vivo{
+#transmision-en-vivo-fornite{
     background-image: url(../img/mobile/fornite-bg-mobile.jpg);
     background-repeat: no-repeat;
     padding-bottom: 180px;
@@ -83,7 +83,41 @@ body{background-color: black;}
     padding-bottom: 10px;
     padding-top: 430px;
 }
+#caracteristicas-y-beneficios{
+    background-color: #1a1a1a;
+    background-size: cover;
+}
 
+#geforce-experiencie{
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: left;
+}
+#directx{
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: left; 
+}
+#shadowplay{
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: left;
+}
+#nvidia-sync{
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: left;  
+}
+#nvidia-ansel{
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: left;   
+}
+#resizable-bar{
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: left;    
+}
 .sub-titulos{
     font-size: 24px;
     color: white;
@@ -105,8 +139,7 @@ body{background-color: black;}
     background-image: url(../img/mobile/img-fondocom-bg-mobile.jpg);
     background-position: center center; 
     background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;   
+    background-size: auto; 
 }
 
 .titulo-componentes{
@@ -174,7 +207,7 @@ body{background-color: black;}
         background-image: url(../img/mobile/img-drivegame-bg-mobile.jpg);
         
     }
-    #transmision-en-vivo{
+    #transmision-en-vivo-fornite{
         background-image: url(../img/mobile/fornite-bg-mobile.jpg);
     }
     #studio-en-casa{
@@ -182,6 +215,48 @@ body{background-color: black;}
         background-repeat: no-repeat;
         background-position: center;
         
+    }
+    #mejora-tu-creativida{
+        background-image: url(../img/mobile/mejora-creatividad-bg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-bottom: 10px;
+        padding-top: 430px;
+    }
+    #caracteristicas-y-beneficios{
+        background-color: #1a1a1a;
+        background-size: cover;
+    }
+    
+    #geforce-experiencie{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    #directx{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left; 
+    }
+    #shadowplay{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    #nvidia-sync{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;  
+    }
+    #nvidia-ansel{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;   
+    }
+    #resizable-bar{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;    
     }
 }
 
@@ -218,14 +293,66 @@ body{background-color: black;}
         background-position: center;
         padding-top: 750px;
     }
-    #transmision-en-vivo{
+    #drive-game{
+        background-image: url(../img/tablet/drive-game-bg-tablet.jpg);
+        padding-top: 790px;
+    }
+    #transmision-en-vivo-fornite{
         background-image: url(../img/tablet/fornite-bg-tablet.jpg);
         background-position: bottom;
         background-size: contain;
         padding-top: 120px;
         padding-bottom: 435px;
     }
-   
+    #studio-en-casa{
+        background-image: url(../img/tablet/studio-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top:670px;
+        
+    }
+    #mejora-tu-creativida{
+        background-image: url(../img/tablet/creatividad-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-bottom: 10px;
+        padding-top: 430px;
+    }
+    #caracteristicas-y-beneficios{
+        background-color: #1a1a1a;
+        background-size: cover;
+    }
+    
+    #geforce-experiencie{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    #directx{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left; 
+    }
+    #shadowplay{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    #nvidia-sync{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;  
+    }
+    #nvidia-ansel{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;   
+    }
+    #resizable-bar{
+        background-color: black;
+        margin-bottom: 50px;
+        text-align: left;    
+    }
 }   
 
 @media only screen and (min-width:1200px){
@@ -239,5 +366,53 @@ body{background-color: black;}
     #componentes{
         background-image: url(../img/dekstop/geforce-ultimate-platform-background-image-spec2-bb460_420-l.jpg);
         background-size: cover;
+    }
+    #rtx-On{
+        background-image: url(../img/tablet/rtx-bg-tablet.jpg);
+        padding-top: 620px;
+        padding-bottom: 9px;
+    }
+    #dlss{
+        background-image: url(../img/tablet/dlss-bg-tablet.jpg);
+    }
+    #ray-tracing-minecraft{
+        background-image: url(../img/tablet/minecraft-rtx-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        text-align: center;
+        padding-top: 570px;
+        padding-bottom: 30px;   
+    }
+    #victoria-medida{
+        background-image: url(../img/tablet/victoria-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 750px;
+    }
+    #drive-game{
+        background-image: url(../img/tablet/drive-game-bg-tablet.jpg);
+        padding-top: 790px;
+    }
+    #transmision-en-vivo-fornite{
+        background-image: url(../img/tablet/fornite-bg-tablet.jpg);
+        background-position: bottom;
+        background-size: contain;
+        padding-top: 120px;
+        padding-bottom: 435px;
+    }
+    #studio-en-casa{
+        background-image: url(../img/tablet/studio-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top:670px;
+        
+    }
+    #mejora-tu-creativida{
+        background-image: url(../img/tablet/creatividad-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-bottom: 10px;
+        padding-top: 430px;
     }
 }
