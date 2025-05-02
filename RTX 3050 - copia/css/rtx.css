@@ -368,7 +368,7 @@ body{background-color: black;}
         background-size: cover;
     }
     #rtx-On{
-        background-image: url(../img/tablet/rtx-bg-tablet.jpg);
+        background-image: url(../img/dekstop/);
         padding-top: 620px;
         padding-bottom: 9px;
     }
@@ -376,7 +376,7 @@ body{background-color: black;}
         background-image: url(../img/tablet/dlss-bg-tablet.jpg);
     }
     #ray-tracing-minecraft{
-        background-image: url(../img/tablet/minecraft-rtx-bg-tablet.jpg);
+        background-image: url(../img/dekstop/);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: contain;
