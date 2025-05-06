@@ -84,39 +84,31 @@ body{background-color: black;}
     padding-top: 430px;
 }
 #caracteristicas-y-beneficios{
-    background-color: #1a1a1a;
+    background-color:gray;
     background-size: cover;
+    padding: 40px;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: auto; 
+    
 }
-
-#geforce-experiencie{
+.fondo-negro{
     background-color: black;
-    margin-bottom: 50px;
-    text-align: left;
 }
-#directx{
-    background-color: black;
-    margin-bottom: 50px;
-    text-align: left; 
+#caracteristicas-y-beneficios,a{
+    text-decoration: none; 
+    color: white;
 }
-#shadowplay{
-    background-color: black;
-    margin-bottom: 50px;
-    text-align: left;
+#caracteristicas-y-beneficios,p{
+    font-weight: 400;
 }
-#nvidia-sync{
+#caracteristicas-adicionales{
     background-color: black;
-    margin-bottom: 50px;
-    text-align: left;  
-}
-#nvidia-ansel{
-    background-color: black;
-    margin-bottom: 50px;
-    text-align: left;   
-}
-#resizable-bar{
-    background-color: black;
-    margin-bottom: 50px;
-    text-align: left;    
+    background-image: url(../img/mobile/Captura\ de\ pantalla\ 2025-05-05\ 155002.png);
+    background-size: cover;
+    
+    padding: 50px;
+    padding-bottom: 900px;
 }
 .sub-titulos{
     font-size: 24px;
@@ -225,38 +217,7 @@ body{background-color: black;}
     }
     #caracteristicas-y-beneficios{
         background-color: #1a1a1a;
-        background-size: cover;
-    }
-    
-    #geforce-experiencie{
-        background-color: black;
-        margin-bottom: 50px;
-        text-align: left;
-    }
-    #directx{
-        background-color: black;
-        margin-bottom: 50px;
-        text-align: left; 
-    }
-    #shadowplay{
-        background-color: black;
-        margin-bottom: 50px;
-        text-align: left;
-    }
-    #nvidia-sync{
-        background-color: black;
-        margin-bottom: 50px;
-        text-align: left;  
-    }
-    #nvidia-ansel{
-        background-color: black;
-        margin-bottom: 50px;
-        text-align: left;   
-    }
-    #resizable-bar{
-        background-color: black;
-        margin-bottom: 50px;
-        text-align: left;    
+        background-size: cover; 
     }
 }
 
@@ -368,51 +329,78 @@ body{background-color: black;}
         background-size: cover;
     }
     #rtx-On{
-        background-image: url(../img/dekstop/);
-        padding-top: 620px;
-        padding-bottom: 9px;
+        background-image: url(../img/dekstop/geforce-rtx-on.jpg);
+        background-position: center;
+        background-size: 1250px;
+        padding-top: 280px;
+        padding-bottom: 240px;
+
     }
     #dlss{
-        background-image: url(../img/tablet/dlss-bg-tablet.jpg);
+        background-image: url(../img/dekstop/geforce-rtx-games-dlss-ai-bg-2560x770-d.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding-left: 450px;
+        padding-top: 100px;
+
     }
     #ray-tracing-minecraft{
-        background-image: url(../img/dekstop/);
+        background-image: url(../img/dekstop/minecraft-rtx-on-1536.webp);
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: contain;
-        text-align: center;
-        padding-top: 570px;
-        padding-bottom: 30px;   
+        background-size: cover;
+        padding-left: 450px;
+        padding-top: 400px;
     }
     #victoria-medida{
-        background-image: url(../img/tablet/victoria-bg-tablet.jpg);
+        background-image: url(../img/dekstop/geforce-rtx-esports-background-image-spec2-bb580_440-l.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        padding-top: 750px;
+        background-size: cover;
+        padding-top: 50px;
+        padding-left: 650px;
+        margin-left: 4px;
+        text-align: left;
     }
     #drive-game{
-        background-image: url(../img/tablet/drive-game-bg-tablet.jpg);
-        padding-top: 790px;
+        background-image: url(../img/dekstop/geforce-grd-module-bg-1350-l.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-top: 310px;
+        padding-bottom: 180px;
     }
     #transmision-en-vivo-fornite{
-        background-image: url(../img/tablet/fornite-bg-tablet.jpg);
-        background-position: bottom;
-        background-size: contain;
-        padding-top: 120px;
-        padding-bottom: 435px;
+        background-image: url(../img/mobile/fornite-bg-mobile.jpg);
+        background-position: center;
+        background-size: 807px;
+        padding-top: 0px;
+        padding-bottom: 920px;
+        
+        padding-left: 445px;
     }
     #studio-en-casa{
-        background-image: url(../img/tablet/studio-bg-tablet.jpg);
+        background-image: url(../img/dekstop/geforce-laptop-broadcast-app-background-image-spec2-bb580_440-l@2x.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        padding-top:670px;
+        padding-top: 160px;
+        padding-bottom: 150px;
         
     }
     #mejora-tu-creativida{
-        background-image: url(../img/tablet/creatividad-bg-tablet.jpg);
+        background-image: url(../img/dekstop/geforce-rtx-studio-1350x580-l.jpg);
         background-repeat: no-repeat;
         background-position: top center;
-        padding-bottom: 10px;
-        padding-top: 430px;
+        padding-top: 140px;
+        padding-bottom: 334px;
+        padding-left: 850px;
+    }
+    #caracteristicas-adicionales{
+        background-color: black;
+        background-image: url(../img/dekstop/Captura\ de\ pantalla\ 2025-05-05\ 215650.png);
+        background-size: 1370px;
+        background-position: top center;
+        background-repeat: no-repeat;
     }
 }
