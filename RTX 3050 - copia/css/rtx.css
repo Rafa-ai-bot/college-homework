@@ -93,6 +93,7 @@ body{background-color: black;}
 }
 #caracteristicas-adicionales{
     background-color: black;
+    
 }
 .sub-titulos{
     font-size: 24px;
@@ -196,20 +197,7 @@ body{background-color: black;}
     gap: 10px;
   }
   
-  .suscripcion .icono {
-    color: chartreuse;
-    font-size: 20px;
-  }
-  
-  .suscripcion button {
-    background-color: chartreuse;
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
+
   
 
 @media only screen and (max-width:414px){
@@ -369,6 +357,7 @@ body{background-color: black;}
         background-size: cover;
         padding-top: 200px;
         padding-bottom: 290px;
+        margin: 30px;
     }
     
     #componentes{
